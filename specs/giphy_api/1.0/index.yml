@@ -562,104 +562,84 @@ definitions:
         properties:
           fixed_height:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding versions of this GIF with a fixed height of 200 pixels. Good for mobile use.
+            description: Data surrounding versions of this GIF with a fixed height of 200 pixels. Good for mobile use.
+            $ref: '#/definitions/Image'
           fixed_height_still:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a static image of this GIF with a fixed height of 200 pixels.
+            description: Data surrounding a static image of this GIF with a fixed height of 200 pixels.
+            $ref: '#/definitions/Image'
           fixed_height_downsampled:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding versions of this GIF with a fixed height of 200 pixels and the number of frames reduced to 6.
+            description: Data surrounding versions of this GIF with a fixed height of 200 pixels and the number of frames reduced to 6.
+            $ref: '#/definitions/Image'
           fixed_width:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding versions of this GIF with a fixed width of 200 pixels. Good for mobile use.
+            description: Data surrounding versions of this GIF with a fixed width of 200 pixels. Good for mobile use.
+            $ref: '#/definitions/Image'
           fixed_width_still:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a static image of this GIF with a fixed width of 200 pixels.
+            description: Data surrounding a static image of this GIF with a fixed width of 200 pixels.
+            $ref: '#/definitions/Image'
           fixed_width_downsampled:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding versions of this GIF with a fixed width of 200 pixels and the number of frames reduced to 6.
+            description: Data surrounding versions of this GIF with a fixed width of 200 pixels and the number of frames reduced to 6.
+            $ref: '#/definitions/Image'
           fixed_height_small:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding versions of this GIF with a fixed height of 100 pixels. Good for mobile keyboards.
+            description: Data surrounding versions of this GIF with a fixed height of 100 pixels. Good for mobile keyboards.
+            $ref: '#/definitions/Image'
           fixed_height_small_still:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a static image of this GIF with a fixed height of 100 pixels.
+            description: Data surrounding a static image of this GIF with a fixed height of 100 pixels.
+            $ref: '#/definitions/Image'
           fixed_width_small:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding versions of this GIF with a fixed width of 100 pixels. Good for mobile keyboards.
+            description: Data surrounding versions of this GIF with a fixed width of 100 pixels. Good for mobile keyboards.
+            $ref: '#/definitions/Image'
           fixed_width_small_still:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a static image of this GIF with a fixed width of 100 pixels.
+            description: Data surrounding a static image of this GIF with a fixed width of 100 pixels.
+            $ref: '#/definitions/Image'
           downsized:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a version of this GIF downsized to be under 2mb.
+            description: Data surrounding a version of this GIF downsized to be under 2mb.
+            $ref: '#/definitions/Image'
           downsized_still:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a static preview image of the downsized version of this GIF.
+            description: Data surrounding a static preview image of the downsized version of this GIF.
+            $ref: '#/definitions/Image'
           downsized_large:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a version of this GIF downsized to be under 8mb.
+            description: Data surrounding a version of this GIF downsized to be under 8mb.
+            $ref: '#/definitions/Image'
           downsized_medium:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a version of this GIF downsized to be under 5mb. 
+            description: Data surrounding a version of this GIF downsized to be under 5mb. 
+            $ref: '#/definitions/Image'
           downsized_small:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a version of this GIF downsized to be under 200kb.
+            description: Data surrounding a version of this GIF downsized to be under 200kb.
+            $ref: '#/definitions/Image'
           original:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding the original version of this GIF. Good for desktop use.
+            description: Data surrounding the original version of this GIF. Good for desktop use.
+            $ref: '#/definitions/Image'
           original_still:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a static preview image of the original GIF.
+            description: Data surrounding a static preview image of the original GIF.
+            $ref: '#/definitions/Image'
           looping:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a version of this GIF set to loop for 15 seconds.
+            description: Data surrounding a version of this GIF set to loop for 15 seconds.
+            $ref: '#/definitions/Image'
           preview:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a version of this GIF in .MP4 format limited to 50kb that displays the first 1-2 seconds of the GIF.
+            description: Data surrounding a version of this GIF in .MP4 format limited to 50kb that displays the first 1-2 seconds of the GIF.
+            $ref: '#/definitions/Image'
           preview_gif:
             type: object
-            allOf:
-            - $ref: '#/definitions/Image'
-            - description: Data surrounding a version of this GIF limited to 50kb that displays the first 1-2 seconds of the GIF.
+            description: Data surrounding a version of this GIF limited to 50kb that displays the first 1-2 seconds of the GIF.
+            $ref: '#/definitions/Image'
 
 parameters:
   query:
